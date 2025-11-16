@@ -1,0 +1,44 @@
+{
+  "name": "security-checkup",
+  "description": "Claude Code plugin for security audits, vulnerability scanning, firewall configuration, and system security hardening workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrosehill/security-checkup-plugin"
+  },
+  "commands": [
+    "./commands/audits/cloudflare-tunnel-proxy-audit.md",
+    "./commands/audits/firewall-audit.md",
+    "./commands/audits/home-assistant-audit.md",
+    "./commands/audits/linux-desktop-audit.md",
+    "./commands/audits/linux-server-audit.md",
+    "./commands/audits/opnsense-audit.md",
+    "./commands/audits/responsive-audit.md",
+    "./commands/audits/security-audit.md",
+    "./commands/audits/security-auditor.md",
+    "./commands/audits/security-audits-probe-vulnerabilities.md",
+    "./commands/audits/security-audits-write-audit.md",
+    "./commands/audits/seo-audit.md",
+    "./commands/audits/write-audit.md",
+    "./commands/authentication/manage-ssh-keys.md",
+    "./commands/authentication/security-auth-fingerprint-scanner.md",
+    "./commands/authentication/security-auth-yubi-setup.md",
+    "./commands/firewall/analyze-firewall.md",
+    "./commands/firewall/firewall-check.md",
+    "./commands/firewall/security-firewall-analyze-firewall.md",
+    "./commands/system-security/security-detect-spyware.md",
+    "./commands/system-security/security-posture-check.md",
+    "./commands/system-security/security-posture-diagnostics-security-posture-check.md",
+    "./commands/web/static-site-hardening.md"
+  ],
+  "keywords": [
+    "sysadmin",
+    "security-checkup"
+  ]
+}
