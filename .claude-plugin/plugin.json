@@ -8,10 +8,7 @@
     "url": "https://danielrosehill.com"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danielrosehill/security-checkup-plugin"
-  },
+  "repository": "https://github.com/danielrosehill/security-checkup-plugin",
   "commands": [
     "./commands/audits/cloudflare-tunnel-proxy-audit.md",
     "./commands/audits/firewall-audit.md",
